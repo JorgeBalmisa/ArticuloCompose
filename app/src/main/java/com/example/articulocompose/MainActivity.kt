@@ -18,6 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.*
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.articulocompose.ui.theme.ArticuloComposeTheme
@@ -59,6 +60,7 @@ private fun Articulo(titulo : String, encabezado : String, descripcion : String,
         Text(
             text = titulo,
             fontSize = 88.sp,
+            textAlign = TextAlign.Justify,
             modifier = modifier.padding(16.dp),
             )
         Text(
