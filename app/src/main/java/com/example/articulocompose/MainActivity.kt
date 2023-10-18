@@ -59,19 +59,21 @@ private fun Articulo(titulo : String, encabezado : String, descripcion : String,
 
         Text(
             text = titulo,
-            fontSize = 88.sp,
-            textAlign = TextAlign.Justify,
+            fontSize = 24.sp,
             modifier = modifier.padding(16.dp),
+            textAlign = TextAlign.Justify,
             )
         Text(
             text = encabezado,
-            fontSize = 24.sp,
+            fontSize = 16.sp,
             modifier = modifier.padding(16.dp),
+            textAlign = TextAlign.Justify,
         )
         Text(
             text = descripcion,
-            fontSize = 24.sp,
+            fontSize = 16.sp,
             modifier = modifier.padding(16.dp),
+            textAlign = TextAlign.Justify,
         )
     }
 
